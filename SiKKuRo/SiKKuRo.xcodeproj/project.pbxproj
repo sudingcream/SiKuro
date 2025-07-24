@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1017030B1068F53F71FBEA0F /* Pods_SiKKuRo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD4AF6117D79BEC70C802 /* Pods_SiKKuRo.framework */; };
+		599B7D52E0E1B7BBD97C993A /* Pods_SiKKuRoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0949CD08EEBC4DAFC3C06A9 /* Pods_SiKKuRoTests.framework */; };
+		5D5E89FB6F181A636C14B6FA /* Pods_SiKKuRo_SiKKuRoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B4E14398D9607B6805A170 /* Pods_SiKKuRo_SiKKuRoUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C5C31DD92E321FAB00D83CEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205E55F6A982B4D0ED5BA342 /* Pods-SiKKuRo-SiKKuRoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRo-SiKKuRoUITests.release.xcconfig"; path = "Target Support Files/Pods-SiKKuRo-SiKKuRoUITests/Pods-SiKKuRo-SiKKuRoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5204E18C4693D16BCBD54A7C /* Pods-SiKKuRoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRoTests.release.xcconfig"; path = "Target Support Files/Pods-SiKKuRoTests/Pods-SiKKuRoTests.release.xcconfig"; sourceTree = "<group>"; };
+		58C667046F3C967B2AD8DEAC /* Pods-SiKKuRo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRo.debug.xcconfig"; path = "Target Support Files/Pods-SiKKuRo/Pods-SiKKuRo.debug.xcconfig"; sourceTree = "<group>"; };
+		6030C6C2037276B6162D0DA4 /* Pods-SiKKuRo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRo.release.xcconfig"; path = "Target Support Files/Pods-SiKKuRo/Pods-SiKKuRo.release.xcconfig"; sourceTree = "<group>"; };
+		81889365042FEA2BD9FD630C /* Pods-SiKKuRoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRoTests.debug.xcconfig"; path = "Target Support Files/Pods-SiKKuRoTests/Pods-SiKKuRoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0949CD08EEBC4DAFC3C06A9 /* Pods_SiKKuRoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiKKuRoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B4E14398D9607B6805A170 /* Pods_SiKKuRo_SiKKuRoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiKKuRo_SiKKuRoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C31DC22E321FA800D83CEE /* SiKKuRo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiKKuRo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C31DD82E321FAB00D83CEE /* SiKKuRoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiKKuRoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C31DE22E321FAB00D83CEE /* SiKKuRoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiKKuRoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA50A27177E7F728B710C58 /* Pods-SiKKuRo-SiKKuRoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiKKuRo-SiKKuRoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SiKKuRo-SiKKuRoUITests/Pods-SiKKuRo-SiKKuRoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3DD4AF6117D79BEC70C802 /* Pods_SiKKuRo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiKKuRo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1017030B1068F53F71FBEA0F /* Pods_SiKKuRo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599B7D52E0E1B7BBD97C993A /* Pods_SiKKuRoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5E89FB6F181A636C14B6FA /* Pods_SiKKuRo_SiKKuRoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739CF223ED0D85E787CFB562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C667046F3C967B2AD8DEAC /* Pods-SiKKuRo.debug.xcconfig */,
+				6030C6C2037276B6162D0DA4 /* Pods-SiKKuRo.release.xcconfig */,
+				CAA50A27177E7F728B710C58 /* Pods-SiKKuRo-SiKKuRoUITests.debug.xcconfig */,
+				205E55F6A982B4D0ED5BA342 /* Pods-SiKKuRo-SiKKuRoUITests.release.xcconfig */,
+				81889365042FEA2BD9FD630C /* Pods-SiKKuRoTests.debug.xcconfig */,
+				5204E18C4693D16BCBD54A7C /* Pods-SiKKuRoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A510DEED5CAD4AC940D87399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DD4AF6117D79BEC70C802 /* Pods_SiKKuRo.framework */,
+				B6B4E14398D9607B6805A170 /* Pods_SiKKuRo_SiKKuRoUITests.framework */,
+				B0949CD08EEBC4DAFC3C06A9 /* Pods_SiKKuRoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5C31DB92E321FA800D83CEE = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				C5C31DDB2E321FAB00D83CEE /* SiKKuRoTests */,
 				C5C31DE52E321FAB00D83CEE /* SiKKuRoUITests */,
 				C5C31DC32E321FA800D83CEE /* Products */,
+				739CF223ED0D85E787CFB562 /* Pods */,
+				A510DEED5CAD4AC940D87399 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C31DEB2E321FAB00D83CEE /* Build configuration list for PBXNativeTarget "SiKKuRo" */;
 			buildPhases = (
+				AD2316DF8ACB80144529E3B0 /* [CP] Check Pods Manifest.lock */,
 				C5C31DBE2E321FA800D83CEE /* Sources */,
 				C5C31DBF2E321FA800D83CEE /* Frameworks */,
 				C5C31DC02E321FA800D83CEE /* Resources */,
+				4F694E277677DC3E9AF689AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				C5C31DC42E321FA800D83CEE /* SiKKuRo */,
 			);
 			name = SiKKuRo;
-			packageProductDependencies = (
-			);
 			productName = SiKKuRo;
 			productReference = C5C31DC22E321FA800D83CEE /* SiKKuRo.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C31DF02E321FAB00D83CEE /* Build configuration list for PBXNativeTarget "SiKKuRoTests" */;
 			buildPhases = (
+				FE46F8BEDF04185F4FDF0DD6 /* [CP] Check Pods Manifest.lock */,
 				C5C31DD42E321FAB00D83CEE /* Sources */,
 				C5C31DD52E321FAB00D83CEE /* Frameworks */,
 				C5C31DD62E321FAB00D83CEE /* Resources */,
@@ -147,8 +191,6 @@
 				C5C31DDB2E321FAB00D83CEE /* SiKKuRoTests */,
 			);
 			name = SiKKuRoTests;
-			packageProductDependencies = (
-			);
 			productName = SiKKuRoTests;
 			productReference = C5C31DD82E321FAB00D83CEE /* SiKKuRoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C31DF32E321FAB00D83CEE /* Build configuration list for PBXNativeTarget "SiKKuRoUITests" */;
 			buildPhases = (
+				D8E169099A7BD0B0D8E305FC /* [CP] Check Pods Manifest.lock */,
 				C5C31DDE2E321FAB00D83CEE /* Sources */,
 				C5C31DDF2E321FAB00D83CEE /* Frameworks */,
 				C5C31DE02E321FAB00D83CEE /* Resources */,
+				E525FF92A85B81667E74E037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				C5C31DE52E321FAB00D83CEE /* SiKKuRoUITests */,
 			);
 			name = SiKKuRoUITests;
-			packageProductDependencies = (
-			);
 			productName = SiKKuRoUITests;
 			productReference = C5C31DE22E321FAB00D83CEE /* SiKKuRoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F694E277677DC3E9AF689AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo/Pods-SiKKuRo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo/Pods-SiKKuRo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo/Pods-SiKKuRo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2316DF8ACB80144529E3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiKKuRo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E169099A7BD0B0D8E305FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiKKuRo-SiKKuRoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E525FF92A85B81667E74E037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo-SiKKuRoUITests/Pods-SiKKuRo-SiKKuRoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo-SiKKuRoUITests/Pods-SiKKuRo-SiKKuRoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiKKuRo-SiKKuRoUITests/Pods-SiKKuRo-SiKKuRoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE46F8BEDF04185F4FDF0DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiKKuRoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5C31DBE2E321FA800D83CEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,12 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		C5C31DEC2E321FAB00D83CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C667046F3C967B2AD8DEAC /* Pods-SiKKuRo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 385Y9B45N8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SiKKuRo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +444,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +452,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.SiKKuRo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +463,14 @@
 		};
 		C5C31DED2E321FAB00D83CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6030C6C2037276B6162D0DA4 /* Pods-SiKKuRo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 385Y9B45N8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SiKKuRo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +486,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.SiKKuRo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +616,7 @@
 		};
 		C5C31DF12E321FAB00D83CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81889365042FEA2BD9FD630C /* Pods-SiKKuRoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +636,7 @@
 		};
 		C5C31DF22E321FAB00D83CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5204E18C4693D16BCBD54A7C /* Pods-SiKKuRoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +656,7 @@
 		};
 		C5C31DF42E321FAB00D83CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA50A27177E7F728B710C58 /* Pods-SiKKuRo-SiKKuRoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +674,7 @@
 		};
 		C5C31DF52E321FAB00D83CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205E55F6A982B4D0ED5BA342 /* Pods-SiKKuRo-SiKKuRoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

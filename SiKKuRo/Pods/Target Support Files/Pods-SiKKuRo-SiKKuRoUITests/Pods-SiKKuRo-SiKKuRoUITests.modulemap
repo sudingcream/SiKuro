@@ -1,0 +1,6 @@
+framework module Pods_SiKKuRo_SiKKuRoUITests {
+  umbrella header "Pods-SiKKuRo-SiKKuRoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
